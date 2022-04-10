@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 cap=cv2.VideoCapture(0)
-#cap=cv2.VideoCapture("/home/pi/Downloads/car.mp4")
+
 lower_range=np.array([152,130,150])
 upper_range=np.array([179,166,255])
 blower_range=np.array([98,168,130])
